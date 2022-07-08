@@ -110,6 +110,12 @@ git add 文件名
 - 将文件添加到暂存区（有文件被修改则需要执行，否则无法切换分支）
 
 ```bash
+git rm --cached 文件名
+```
+
+* 将文件从暂存区移除
+
+```bash
 git commit -m "日志消息"
 git commit --amend -m "日志消息" （修改上一次提交）
 ```
