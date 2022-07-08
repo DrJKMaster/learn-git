@@ -311,7 +311,7 @@ git gc
 - 压缩 objects 文件（如果有多个 blob 文件内容相似，占用空间很大，则可用此方法大幅压缩）
 
 ```bash
-git brune
+git prune
 ```
 
 - 删除未被引用的垃圾文件
